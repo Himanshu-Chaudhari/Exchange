@@ -1,5 +1,4 @@
 "use client"
-
 export function PrimaryButton({children,onClick}:{
     children : React.ReactNode,
     onClick:()=>void
@@ -41,5 +40,5 @@ return (
           {children}
       </div>
   </button>
-)
+  )
 }
